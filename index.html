@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title> Gravity Falls</title>
+</head>
+
+<header>
+    <h1> Zodiaco  Gravity Fall </h1>
+</header>
+
+<body>
+
+  <select name="lista" id="signos">
+    <option value="Estrela Cadente">Estrela Cadente</option>
+    <option value="Estrela">Estrela</option>
+    <option value="Coração">Coração</option>
+    <option value="Oculos">Oculos</option>
+    <option value="Barrete">Barrete</option>
+    <option value="Interrogação">Interrogação</option>
+    <option value="Gelo">Gelo</option>
+    <option value="Pinheiro">Pinheiro</option>
+    <option value="Mão">Mão</option>
+    <option value="Alpaca">Alpaca</option>
+    <option value=""></option>
+  </select>
+
+    <button onclick="escolhaSigno()"> Buscar </button>
+
+    <div id="frase"> </div>
+    <img src="" id="persona" >
+
+    <script>
+        function escolhaSigno() {
+            var texto 
+            var signo = document.getElementById("signos").value;
+            var img = document.getElementById("persona")
+            
+            switch(signo) {
+                case "Estrela Cadente":
+                texto = "Características: Otimista, energética, se apaixona facilmente e viciada em açúcar.  <br> Idade: 12; 13 (durante a série).  <br>  Nascimento: 31 de agosto de 1999   <br>   Nome completo: Mabel Pines  <br>  Origem: Piedmont, Califórnia  <br> Simbolo do Zodiaco: Estrela cadente."
+                document.body.style.backgroundImage = "url(https://rare-gallery.com/uploads/posts/568427-gravity-falls.jpg)";
+                img.src='https://www.wallpaperflare.com/static/393/719/796/gravity-falls-mabel-gravity-wallpaper.jpg';
+                break; 
+
+                case "Estrela":
+                texto = "Características:Gideão é imaturo, mimado e aparenta não se importar com os sentimentos dos pais. É ambicioso e não desiste de seus objetivos. Apesar de ter um lado 'adorável', pode ser muito cruel com qualquer um que esteja no caminho de seus planos. <br> Idade:9. <br> Nascimento: não revelado <br> Nome Completo:Gideon Charles Gleeful  <br> Origem: não revelado <br> Simbolo do Zodiaco: Estrela."
+                document.body.style.backgroundImage = "url(https://wallpapercave.com/wp/wp1995246.jpg)";
+                img.src='https://64.media.tumblr.com/3ab75722c3c2e3daba1798b75774e83f/tumblr_inline_nmefxsC5oJ1seymdr_500.jpg';
+                break;
+
+                case "Coração":
+                texto = "Características:Temperamental, Descontraído, Frio e Apático. <br> Idade:17. <br> Nascimento:1995. <br> Nome Completo:Robbie Valentino <br> Origem: não revelado <br> Simbolo do Zodiaco: Coração. "
+                document.body.style.backgroundImage = "url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700257719.jpg)";
+                img.src='https://cdn.costumewall.com/wp-content/uploads/2017/02/robbie-stacey-valentino.jpg';
+
+                break;
+
+                case "Oculos":
+                texto = "Características:Inventor Genial e Maluco. <br> Idade: Não revelado. <br> Nascimento: não revelado. <br> Nome Completo:Fiddleford Hadron McGucket <br> Origem: não revelado <br> Simbolo do Zodiaco: Oculos."
+                document.body.style.backgroundImage = "url(https://i.gifer.com/Kpn.gif)";
+                img.src='https://loser-city.com/wp-content/uploads/2016/10/Old-Man-McGucket-cave.png';
+                break;
+
+                case "Barrete":
+                texto = "Características:Charlatão, Trapaceiro, irresponsável, Herói ou idiota?. <br> Idade: 67. <br> Nascimento: 15 de junho de 1945(15 minutos depois de Ford). <br> Nome Completo:Stanley Pines <br> Origem: Nova Jersey, na cidade de Glass Shard Beach. <br> Simbolo do Zodiaco: Simbolo maçon 'Barrete'."
+                document.body.style.backgroundImage = "url(https://c4.wallpaperflare.com/wallpaper/357/338/508/gravity-falls-wallpaper-preview.jpg)";
+                img.src='https://i.quotev.com/petr2iziaaaa.jpg';
+                break;
+
+                case "Interrogação":
+                texto = "Características:é um homem estranho e adorável, um funcionario 'faz-tudo'. <br> Idade: 22. <br> Nascimento: 13 de julho de 1990. <br> Nome Completo:Jesus Alzamirano Ramirez <br> Origem: Não revelado <br> Simbolo do Zodiaco: Interrogação '?'."
+                document.body.style.backgroundImage = "url(https://i.pinimg.com/originals/fc/16/7f/fc167f9eaed48aea4929f5a768d0fcc3.gif)";
+                img.src='https://cps-static.rovicorp.com/2/Open/Disney_Channel_1334/Program/24926521/_3by4/_derived_jpg_q90_310x470_m0/24926521_Still_GravityFalls_2.jpg';
+
+                break;
+
+                case "Gelo":
+                texto = "Características:Divertida, rebelde e descontraída, com sangue frio pra certas decissões, ela decide se esquivar da responsabilidade pelas atividades que tem pelas que considera mais agradáveis, como sair em aventuras com Dipper e Mabel Pines. <br> Idade: 16. <br> Nascimento: Dezembro de 1996. <br> Nome Completo:Wendy Berble Corduroy <br> Origem: Oregon, Gravity Falls <br> Simbolo do Zodiaco: Saco de Gelo."
+                document.body.style.backgroundImage = "url(https://wallpapercave.com/wp/wp9375150.jpg)";
+                img.src='https://pm1.narvii.com/6043/c195703d6f3e9961d079564172683673303708e2_hq.jpg';
+                break;
+
+                case "Pinheiro":
+                texto = "Características:Nascido com um curiosidade para o sobrenatural, Dipper não consegue ficar quieto e está sempre otimista. <br> Idade: 13. <br> Nascimento: 31 de Agosto – 1999,(5 minutos depois de Mabel). <br> Nome Completo:Mason pines 'Dipper' <br> Origem:Piedmont, Califórnia <br> Simbolo do Zodiaco: pinheiro."
+                document.body.style.backgroundImage = "url(https://wallup.net/wp-content/uploads/2017/11/22/311750-Gravity_Falls-748x421.jpg)";
+                img.src='https://i.pinimg.com/originals/40/c2/9f/40c29f4d575864f721f019baff0e0b8d.gif'
+                break;
+
+                case "Mão": 
+                texto = "Características:é um investigador paranormal que veio a Gravity Falls, para estudar a enorme estranheza da cidade, um gênio movido pela estranheza, possui 6 dedos em cada mão. <br> Idade:67. <br> Nascimento: 15 de junho de 1945. <br> Nome Completo:Stanford Pines <br> Origem:Nova Jersey, na cidade de Glass Shard Beach  <br> Simbolo do Zodiaco: Mão de 6 dedos."
+                document.body.style.backgroundImage = "url(https://64.media.tumblr.com/02f63731ca883d3f7b110b3e618477f7/tumblr_nmasd2oGCF1rphfsao1_1280.png)";
+                img.src='https://64.media.tumblr.com/5df5422e9c7cd6ce6bfe9bb5a54a0c2f/a1833c9b2a21cb97-4d/s1280x1920/b3b6f543ca87a1f0a50e34b29a1e081796aa88dc.png';
+                break;
+
+                case "Alpaca":
+                texto = " Características:Sarcástica, mimada,  irritante,não gosta muito de ser essa pessoa rude e que se sobrepõe aos outros, ela lá no fundo, sempre quis ser tratada que nem as outras crianças normais. <br> Idade: 12. <br> Nascimento: 1996 . <br> Nome Completo:Elise Pacifica Noroeste <br> Origem: Não revelado <br> Simbolo do Zodiaco: Alpaca."
+                document.body.style.backgroundImage = "url(https://i.ytimg.com/vi/Je5ED0Uekis/maxresdefault.jpg)";
+                img.src='https://pbs.twimg.com/media/EcE8a8IUwAADf6_.jpg';
+                break;
+
+                default:
+                texto = "Características:Sarcástico,extremamente manipulador, mentiroso, esperto, egoísta, chantagista, oportunista e que faz de tudo para conseguir o que quer.. <br> Idade: ?. <br> Nascimento: ?. <br> Nome Completo:'Bill Cipher' Desconhecido (Seu nome verdadeiro é tão horrível que ele pode causar insanidade em seres humanos)<br> Origem: ? <br> Simbolo do Zodiaco: O triangulo."
+                document.body.style.backgroundImage = "url(https://wallpaperset.com/w/full/2/4/f/384604.jp)";
+                img.src='https://i.pinimg.com/736x/4e/27/5f/4e275f672760c868ed38cec559d33422.jpg';
+            }
+
+            document.getElementById("frase").innerHTML = texto
+        }
+    </script>
+
+<footer> Site Zodiaco criado por Rafael Barreto &copy;
+<a href="https://www.instagram.com/rafael_bdsantos/">Instagram</a>  e  <a href="https://github.com/Raf-stitch-0299">Github</a>
+<br>
+
+</footer>
+
+</body>
+
+</html>

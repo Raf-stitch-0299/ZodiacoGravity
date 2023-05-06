@@ -1,0 +1,81 @@
+
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+header{
+ background-color: black;   
+ position: relative;
+ display:flex ;
+ height: 92px;
+}
+
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/653/784/833/gravity-falls-wallpaper-preview.jpg);
+    background-size: 230vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+/*https://rare-gallery.com/uploads/posts/568427-gravity-falls.jpg */
+h1{
+    color: yellow;
+left: 20px;
+font-size: 70px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#persona{
+    position: relative;
+width: 500px;
+bottom: 35px;
+}
+
+#frase{
+    text-align: center;
+    position: relative;
+    width: 1050px;
+    left: 90px;
+    top: 160vh;
+    font-size: 37px;
+   background-color: beige;
+   opacity: 0.7;
+}
+
+select{
+    position: absolute;
+    left: 153vh;
+    width: 200px;
+    height: 35px;
+    top: 10px;
+    background-color: yellow;
+}
+
+button{
+position: relative;
+background-color: yellow;
+font-size: 18px;
+width: 100px;
+bottom: 82px;
+height: 35px;
+left: 190vh;
+}
+
+footer{
+    position: relative;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    width: 1347px;
+    top: 900px;
+    height: 330px;
+    background-image: url(https://i.pinimg.com/originals/de/7d/c6/de7dc6fbf3cd117d69bd5e850a81cb72.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+   
+}
